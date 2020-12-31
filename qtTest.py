@@ -3,10 +3,7 @@ import os
 import commodity
 import industry
 from PyQt5.QtWidgets import QApplication,QLineEdit,QPushButton,QCheckBox,QWidget, QVBoxLayout,QHBoxLayout,QLabel, QRadioButton,QGridLayout, QButtonGroup, QFileDialog
-from PyQt5.QtCore import QTimer
-import faulthandler
 import webbrowser
-faulthandler.enable()
 
 
 class GUI(QWidget):
